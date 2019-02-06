@@ -1,0 +1,39 @@
+{
+	"name": "@samuelmeuli/eslint-config",
+	"version": "1.0.0",
+	"description": "My ESLint configuration",
+	"keywords": [
+		"eslint",
+		"config",
+		"eslint-config",
+		"lint"
+	],
+	"main": "index.js",
+	"author": "Samuel Meuli <me@samuelmeuli.com>",
+	"repository": "github:samuelmeuli/eslint-config",
+	"license": "MIT",
+	"scripts": {
+		"format": "prettier --ignore-path .gitignore --write"
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"devDependencies": {
+		"husky": "^1.1.2",
+		"lint-staged": "^8.1.0",
+		"prettier": "^1.15.3"
+	},
+	"files": [
+		"index.js"
+	],
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{js,json,md,yml}": [
+			"yarn format",
+			"git add"
+		]
+	}
+}
