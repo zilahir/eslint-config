@@ -15,15 +15,17 @@
 	"scripts": {
 		"format": "prettier --ignore-path .gitignore --write"
 	},
-	"dependencies": {},
-	"peerDependencies": {},
+	"peerDependencies": {
+		"eslint": "^5.0.0"
+	},
 	"devDependencies": {
 		"husky": "^1.1.2",
 		"lint-staged": "^8.1.0",
 		"prettier": "^1.15.3"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"react.js"
 	],
 	"husky": {
 		"hooks": {
