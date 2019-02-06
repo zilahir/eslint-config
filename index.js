@@ -1,29 +1,11 @@
-// Additional general rules
-const additionalGeneralRules = {
-	// Tab indentation
-	indent: ["error", "tab"],
-	"no-tabs": "off",
+const baseRules = require("./baseRules");
+const { checkBaseConfig } = require("./checkDependencies");
 
-	// Object spacing
-	"object-curly-newline": "off",
-	"object-curly-spacing": [
-		"error",
-		"always",
-		{
-			objectsInObjects: false,
-		},
-	],
-
-	// Disallow console statements (except for console.error)
-	"no-console": [
-		"error",
-		{
-			allow: ["error"],
-		},
-	],
-};
+if (!checkBaseConfig()) {
+	throw Error('Package "eslint-config-airbnb-base" is not installed');
+}
 
 // Extends eslint-config-airbnb-base
 module.exports = {
-	rules: additionalGeneralRules,
+	rules: baseRules,
 };

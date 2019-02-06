@@ -1,4 +1,9 @@
-const generalConfig = require("./index");
+const baseRules = require("./baseRules");
+const { checkReactConfig } = require("./checkDependencies");
+
+if (!checkReactConfig()) {
+	throw Error('Package "eslint-config-airbnb" is not installed');
+}
 
 // Rules to disable from eslint-config-airbnb
 const disabledReactRules = {
@@ -28,7 +33,7 @@ const additionalReactRules = {
 // Extends eslint-config-airbnb
 module.exports = {
 	rules: {
-		...generalConfig.rules,
+		...baseRules,
 		...disabledReactRules,
 		...additionalReactRules,
 	},
