@@ -21,4 +21,9 @@ module.exports = {
 			allow: ["error"],
 		},
 	],
+
+	// Import order
+	"import/order": ["error", { "newlines-between": "never" }],
+	// TODO enforce alphabetical sorting within groups once available
+	// See https://github.com/benmosher/eslint-plugin-import/issues/389
 };
