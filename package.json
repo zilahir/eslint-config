@@ -13,7 +13,7 @@
 	"repository": "github:samuelmeuli/eslint-config",
 	"license": "MIT",
 	"scripts": {
-		"format": "prettier --ignore-path .gitignore --write"
+		"format": "prettier --write"
 	},
 	"peerDependencies": {
 		"eslint": "^5.0.0"
