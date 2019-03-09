@@ -28,6 +28,10 @@ const disabledReactRules = {
 const additionalReactRules = {
 	// Require <button> to have "type" attribute (prevents unintended form submissions)
 	"react/button-has-type": "error",
+
+	// Sort PropTypes alphabetically
+	"react/jsx-sort-default-props": "error",
+	"react/sort-prop-types": "error",
 };
 
 // Extends eslint-config-airbnb
