@@ -1,6 +1,6 @@
 # eslint-config
 
-This is my personal configuration for [ESLint](https://github.com/eslint/eslint). It's based on [Airbnb's ESLint configurations](https://github.com/airbnb/javascript).
+These are my personal configurations for [ESLint](https://github.com/eslint/eslint). They are based on [Airbnb's ESLint configurations](https://github.com/airbnb/javascript).
 
 ## Base configuration
 
@@ -9,6 +9,9 @@ This is my personal configuration for [ESLint](https://github.com/eslint/eslint)
 ```sh
 npx install-peerdeps --dev eslint-config-airbnb-base
 yarn add --dev --tilde @samuelmeuli/eslint-config
+
+# If you are using TypeScript, also run the following:
+yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 2. Create a `.eslintrc.yml` file with the following content in your project root:
@@ -17,8 +20,9 @@ yarn add --dev --tilde @samuelmeuli/eslint-config
 root: true
 
 extends:
-  - airbnb-base
-  - "@samuelmeuli/eslint-config"
+  - "@samuelmeuli/eslint-config/base"
+  # OR
+  - "@samuelmeuli/eslint-config/base-typescript"
 
 env:
   browser: true
@@ -41,6 +45,9 @@ env:
 ```sh
 npx install-peerdeps --dev eslint-config-airbnb
 yarn add --dev --tilde @samuelmeuli/eslint-config
+
+# If you are using TypeScript, also run the following:
+yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 2. Create a `.eslintrc.yml` file with the following content in your project root:
@@ -49,8 +56,9 @@ yarn add --dev --tilde @samuelmeuli/eslint-config
 root: true
 
 extends:
-  - airbnb
   - "@samuelmeuli/eslint-config/react"
+  # OR
+  - "@samuelmeuli/eslint-config/react-typescript"
 
 env:
   browser: true
