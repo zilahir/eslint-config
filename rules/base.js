@@ -20,4 +20,18 @@ module.exports = {
 			allow: ["error"],
 		},
 	],
+
+	// Import order
+	"import/order": [
+		"error",
+		{
+			groups: [
+				["builtin", "external"], // Built-in Node modules and external packages first
+				// All other imports afterwards
+			],
+			"newlines-between": "always", // Enforce newlines between and disallow inside groups
+		},
+	],
+	// TODO enforce alphabetical sorting within groups once available
+	//   See https://github.com/benmosher/eslint-plugin-import/issues/389
 };
