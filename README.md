@@ -30,10 +30,12 @@ env:
 
 3. Add a linting script to your `package.json` file:
 
-```json
+```js
 {
   "scripts": {
-    "lint": "eslint ."
+    "lint:js": "eslint --fix .",
+    // OR
+    "lint:ts": "eslint --ext .ts --fix ."
   }
 }
 ```
@@ -62,14 +64,17 @@ extends:
 
 env:
   browser: true
+  node: true
 ```
 
 3. Add a linting script to your `package.json` file:
 
-```json
+```js
 {
   "scripts": {
-    "lint": "eslint ."
+    "lint:js": "eslint --ext .js,.jsx --fix .",
+    // OR
+    "lint:ts": "eslint --ext .ts,.tsx --fix ."
   }
 }
 ```
