@@ -1,21 +1,21 @@
 {
-	"name": "@samuelmeuli/eslint-config",
-	"version": "2.0.1",
-	"description": "My ESLint configuration",
+	"name": "@zilahir/eslint-config",
+	"version": "1.0.1",
+	"description": "eslint config",
 	"keywords": [
 		"eslint",
 		"config",
 		"eslint-config",
 		"lint"
 	],
-	"author": "Samuel Meuli <me@samuelmeuli.com>",
-	"repository": "github:samuelmeuli/eslint-config",
+	"author": "Richard Zilahi <zilahi@gmail.com>",
+	"repository": "github:zilahir/eslint-config",
 	"license": "MIT",
 	"scripts": {
 		"format": "prettier --write"
 	},
 	"peerDependencies": {
-		"eslint": "^5.0.0",
+		"eslint": "^5.6.0",
 		"eslint-plugin-import": "^2.0.0"
 	},
 	"devDependencies": {
