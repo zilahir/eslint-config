@@ -20,9 +20,9 @@ yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
 root: true
 
 extends:
-  - "@samuelmeuli/eslint-config/base"
+  - "@zilahir/eslint-config/base"
   # OR
-  - "@samuelmeuli/eslint-config/base-typescript"
+  - "@zialhir/eslint-config/base-typescript"
 
 env:
   browser: true
