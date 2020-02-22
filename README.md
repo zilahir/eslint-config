@@ -8,10 +8,10 @@ These are my personal configurations for [ESLint](https://github.com/eslint/esli
 
 ```sh
 npx install-peerdeps --dev eslint-config-airbnb-base
-yarn add --dev --tilde @samuelmeuli/eslint-config
+npm i --save--dev @zilahir/eslint-config
 
 # If you are using TypeScript, also run the following:
-yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm  i --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 2. Create a `.eslintrc.yml` file with the following content in your project root:
