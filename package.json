@@ -23,7 +23,6 @@
 	},
 	"devDependencies": {
 		"@zilahir/stylelint-config": "^1.0.0",
-		"husky": "^1.1.2",
 		"lint-staged": "^8.1.0",
 		"prettier": "^1.15.3"
 	},
