@@ -1,0 +1,20 @@
+{
+	"extends": "@zilahir/stylelint-config",
+	"ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.md"],
+	"rules": {
+		"order/properties-alphabetical-order": null,
+		"selector-class-pattern": "[a-z]+((\\d)|([A-Z0-9][a-z0-9]+))*([A-Z])?",
+		"scss/percent-placeholder-pattern": "[a-z]+((\\d)|([A-Z0-9][a-z0-9]+))*([A-Z])?",
+		"plugin/rational-order": null,
+		"selector-max-compound-selectors": 6,
+		"order/order": [
+			{
+				"type": "at-rule",
+				"name": "include"
+			},
+			"declarations",
+			"rules",
+			"at-rules"
+		]
+	}
+}
