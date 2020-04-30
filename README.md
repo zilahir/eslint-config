@@ -58,9 +58,9 @@ yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
 root: true
 
 extends:
-  - "@samuelmeuli/eslint-config/react"
+  - "@zilahir/eslint-config/react"
   # OR
-  - "@samuelmeuli/eslint-config/react-typescript"
+  - "@zilahir/eslint-config/react-typescript"
 
 env:
   browser: true
