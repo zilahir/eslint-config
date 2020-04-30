@@ -21,6 +21,18 @@ module.exports = {
 		},
 	],
 
+	// Forbid semicolons
+	"semi": [2, "never"],
+
+	// demo => {} OK \\ (demo) => {} NOT OK
+	"arrow-parens": [1, "as-needed"],
+
+	"unicorn/prevent-abbreviations": 0,
+	"unicorn/filename-case": 1,
+	"unicorn/no-nested-ternary": 1,
+	"unicorn/no-for-loop": 2,
+	"unicorn/consistent-function-scoping": 2,
+
 	// Import order
 	"import/order": [
 		"error",

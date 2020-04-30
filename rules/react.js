@@ -21,4 +21,18 @@ module.exports = {
 	// Sort PropTypes alphabetically
 	"react/jsx-sort-default-props": "error",
 	"react/sort-prop-types": "error",
+
+	// Not reasonable prop-types will throw an error
+	"react/forbid-prop-types": 2,
+
+	// multiline jsx must be wrapped with parens
+	"react/jsx-wrap-multilines": 2,
+
+	"jsx-a11y/no-static-element-interactions": [
+		"error",
+		{
+			"handlers": ["onClick"]
+		}
+	]
+
 };
