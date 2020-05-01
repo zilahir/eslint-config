@@ -33,6 +33,13 @@ module.exports = {
 	"unicorn/no-for-loop": 2,
 	"unicorn/consistent-function-scoping": 2,
 
+	"unicorn/filename-case": [
+		"error",
+		{
+			"case": "kebabCase"
+		}
+	]
+
 	// Import order
 	"import/order": [
 		"error",
