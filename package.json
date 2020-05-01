@@ -1,6 +1,6 @@
 {
 	"name": "@zilahir/eslint-config",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "eslint config",
 	"keywords": [
 		"eslint",
@@ -19,7 +19,8 @@
 		"eslint-plugin-import": "^2.0.0",
 		"eslint-plugin-unicorn": "^18.0.1",
 		"eslint-plugin-jsdoc": "^22.0.0",
-		"eslint-plugin-jsx-a11y": "^6.2.3"
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-node": "^11.1.0"
 	},
 	"devDependencies": {
 		"@zilahir/stylelint-config": "^1.0.0",
