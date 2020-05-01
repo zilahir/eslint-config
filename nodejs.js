@@ -6,6 +6,7 @@ checkDependencies(["eslint-plugin-node"])
 
 module.exports = {
   extends: [
+    "airbnb",
     "eslint:recommended",
     "plugin:unicorn/recommended",
     "plugin:node/recommended"
