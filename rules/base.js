@@ -38,7 +38,7 @@ module.exports = {
 		{
 			"case": "camelCase"
 		}
-	]
+	],
 
 	// Import order
 	"import/order": [
