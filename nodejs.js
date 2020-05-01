@@ -7,6 +7,7 @@ checkDependencies(["eslint-plugin-node"])
 module.exports = {
   extends: [
     "eslint:recommended",
+    "plugin:unicorn/recommended",
     "plugin:node/recommended"
   ],
   rules: {
