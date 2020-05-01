@@ -2,11 +2,10 @@ const baseRules = require("./rules/base");
 const nodeRules = require('./rules/nodejs');
 const checkDependencies = require("./utils/checkDependencies");
 
-checkDependencies(["eslint-config-airbnb", "eslint-plugin-node"])
+checkDependencies(["eslint-plugin-node", "eslint-plugin-import"])
 
 module.exports = {
   extends: [
-    "airbnb",
     "eslint:recommended",
     "plugin:unicorn/recommended",
     "plugin:node/recommended"
