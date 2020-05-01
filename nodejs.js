@@ -2,7 +2,7 @@ const baseRules = require("./rules/base");
 const nodeRules = require('./rules/nodejs');
 const checkDependencies = require("./utils/checkDependencies");
 
-checkDependencies(["eslint-plugin-node"])
+checkDependencies(["eslint-config-airbnb", "eslint-plugin-node"])
 
 module.exports = {
   extends: [
