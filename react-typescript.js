@@ -12,7 +12,11 @@ checkDependencies([
 
 module.exports = {
 	parser: "@typescript-eslint/parser",
-	extends: ["airbnb", "plugin:@typescript-eslint/recommended"],
+	extends: [
+		"airbnb",
+		"plugin:@typescript-eslint/recommended,
+		"plugin:unicorn/recommended"
+	],
 	rules: {
 		...baseRules,
 		...reactRules,
