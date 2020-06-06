@@ -8,13 +8,14 @@ checkDependencies([
 	"eslint-config-airbnb",
 	"@typescript-eslint/eslint-plugin",
 	"@typescript-eslint/parser",
+	"eslint-plugin-unicorn",
 ]);
 
 module.exports = {
 	parser: "@typescript-eslint/parser",
 	extends: [
 		"airbnb",
-		"plugin:@typescript-eslint/recommended,
+		"plugin:@typescript-eslint/recommended",
 		"plugin:unicorn/recommended"
 	],
 	rules: {
