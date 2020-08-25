@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"@zilahir/stylelint-config": "^1.0.0",
-		"lint-staged": "^8.1.0",
+		"lint-staged": "^10.2.13",
 		"prettier": "^1.15.3"
 	},
 	"files": [
