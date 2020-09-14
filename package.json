@@ -1,6 +1,6 @@
 {
 	"name": "@zilahir/eslint-config",
-	"version": "2.2.2",
+	"version": "3.0.0",
 	"description": "eslint config",
 	"keywords": [
 		"eslint",
