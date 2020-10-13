@@ -1,6 +1,6 @@
 {
 	"name": "@zilahir/eslint-config",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "eslint config",
 	"keywords": [
 		"eslint",
@@ -17,7 +17,7 @@
 	"peerDependencies": {
 		"eslint": "^5.6.0",
 		"eslint-plugin-import": "^2.0.0",
-		"eslint-plugin-unicorn": "^19.0.1",
+		"eslint-plugin-unicorn": "^22.0.0",
 		"eslint-plugin-jsdoc": "^22.0.0",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
 		"eslint-plugin-node": "^11.1.0"
