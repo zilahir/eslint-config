@@ -1,6 +1,6 @@
 {
 	"name": "@zilahir/eslint-config",
-	"version": "3.0.2",
+	"version": "3.9.0",
 	"description": "eslint config",
 	"keywords": [
 		"eslint",
@@ -15,16 +15,19 @@
 		"format": "prettier --write"
 	},
 	"peerDependencies": {
-		"eslint": "^5.6.0",
-		"eslint-plugin-import": "^2.0.0",
-		"eslint-plugin-jsdoc": "^22.0.0",
-		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint": "^7.22.0",
+		"eslint-plugin-jsdoc": "^32.3.0",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-unicorn": "^29.0.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-react-hooks": "^4.2.0",
 		"eslint-plugin-node": "^11.1.0"
+
 	},
 	"devDependencies": {
 		"@zilahir/stylelint-config": "^3.0.0",
-		"prettier": "^2.1.1",
-		"lint-staged": "^10.3.0"
+		"prettier": "^2.2.1",
+		"lint-staged": "^10.5.4"
 	},
 	"files": [
 		"rules/",

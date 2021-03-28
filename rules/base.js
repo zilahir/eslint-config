@@ -27,8 +27,8 @@ module.exports = {
 	// demo => {} OK \\ (demo) => {} NOT OK
 	"arrow-parens": [1, "as-needed"],
 
-	"unicorn/prevent-abbreviations": 0,
-	"unicorn/filename-case": 1,
+	"unicorn/prevent-abbreviations": 2,
+	"unicorn/filename-case": 2,
 	"unicorn/no-nested-ternary": 1,
 	"unicorn/no-for-loop": 2,
 	"unicorn/consistent-function-scoping": 2,
@@ -51,6 +51,4 @@ module.exports = {
 			"newlines-between": "always", // Enforce newlines between and disallow inside groups
 		},
 	],
-	// TODO enforce alphabetical sorting within groups once available
-	//   See https://github.com/benmosher/eslint-plugin-import/issues/389
 };
